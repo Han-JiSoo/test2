@@ -15,8 +15,8 @@ public class Lotto {
 
 		for (int i = 1; i <= LOTTO_COUNT; i++) {
 			lottoNums[i - 1] = r.nextInt(45) + 1;
-			for (int j = 0; j < i; j++) {
-				if (lottoNums[i - 1] == lottoNums[j]) {
+			for (int j = 1; j < i; j++) {
+				if (lottoNums[j - 1] == lottoNums[i - 1]) {
 					i--;
 					break;
 				}
