@@ -34,4 +34,7 @@ public class Lotto {
 		System.out.println(lottoList);
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> branch 'master' of https://github.com/Han-JiSoo/test2.git
